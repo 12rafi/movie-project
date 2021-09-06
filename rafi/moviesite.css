@@ -1,0 +1,130 @@
+*{
+	padding: 0;
+	margin: 0;
+
+}
+
+.lmn{
+	background: url(lemon.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+.naveber{
+	height: 80px;
+	width: 100%;
+	background-color: white;
+
+
+}
+
+.navber ul{
+    float: right;
+  margin-top: 10px;
+  margin-right: 40px;
+
+ } 
+
+.navber ul li{
+	list-style: none;
+	margin: 0 10px;
+	display: inline-block;
+	padding: 20px;
+	background: #fef250;
+	position: relative;
+
+
+	
+
+	
+}
+
+
+
+.navber ul li a{
+	text-decoration: none;
+	color: black;
+	display: block;
+
+	transition: 2s;
+}
+.navber ul li:hover{
+	background: lime;
+}
+
+
+
+.box{
+	padding: 20px 50px;
+	
+
+}
+
+ul ul{
+
+	display: none; 
+	position: absolute; left: 10px top:  30px;
+	width: 20px;
+}
+     	
+ ul li:hover ul{
+	display: block; 
+}
+
+
+
+
+.rafi {
+	margin-top: 30%;
+	margin-left: 350px;
+	color: maroon;
+}	
+img{
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	
+	margin-left: auto;
+	position: absolute;
+	font-size: 16px;
+	border-radius: 50px;
+}
+ img:hover{
+	background: blue;
+	
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: calibri;
+	outline: none;
+	text-decoration: none;
+
+}
+body{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: orange;
+}
+h2{
+	width: 0ch;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: text 6s infinite alternate;
+	border-right: 3px  solid  black;
+	font-size: 50px;
+}
+@keyframes text{
+	0%{
+		width: 0ch;
+	}
+	50%{
+		width: 30ch;
+	}
+
+
+}
